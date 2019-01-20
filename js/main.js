@@ -114,6 +114,102 @@
 			}
 		}
     });
+    $('#product-carouse3').owlCarousel({
+        loop: true,
+        margin: 15,
+        autoplay: true,
+        smartSpeed: 500,
+        items: 1,
+        nav: true,
+        navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+        dots: true,
+        responsive : {
+			0 : {
+				items: 1,
+			},
+			520 : {
+				items: 2,
+			},
+			768 : {
+				items: 2
+			},
+			992 : {
+				items: 4
+			}
+		}
+    });
+    $('#product-carouse4').owlCarousel({
+        loop: false,
+        margin: 15,
+        autoplay: false,
+        smartSpeed: 500,
+        items: 1,
+        //nav: true,
+        navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+        dots: true,
+        responsive : {
+			0 : {
+				items: 1,
+			},
+			520 : {
+				items: 2,
+			},
+			768 : {
+				items: 2
+			},
+			992 : {
+				items: 4
+			}
+		}
+    });
+    $('#product-carouse5').owlCarousel({
+        loop: false,
+        margin: 15,
+        autoplay: false,
+        smartSpeed: 500,
+        items: 1,
+        //nav: true,
+        navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+        //dots: true,
+        responsive : {
+			0 : {
+				items: 1,
+			},
+			520 : {
+				items: 2,
+			},
+			768 : {
+				items: 2
+			},
+			992 : {
+				items: 3
+			}
+		}
+    });
+    $('#product-carouse6').owlCarousel({
+        loop: false,
+        margin: 15,
+        autoplay: false,
+        smartSpeed: 500,
+        items: 1,
+        //nav: true,
+        navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+        //dots: true,
+        responsive : {
+			0 : {
+				items: 1,
+			},
+			520 : {
+				items: 2,
+			},
+			768 : {
+				items: 2
+			},
+			992 : {
+				items: 3
+			}
+		}
+    });
 
 /*=========================================================================
     Testimonial Carousel
