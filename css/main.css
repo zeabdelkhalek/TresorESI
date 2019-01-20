@@ -589,18 +589,23 @@ ul.nav > li > a.active{
 .promo-content h3{
     margin-bottom: 5px;
 }
+.navbar-brand:hover {
+    color : white ; 
+}
 /* ==========================================================================
    Product Details Section
    ========================================================================== */
-.pro-details-section{}
+.pro-details-section{    background-color: white ; 
+}
 .pro-details-section .container{
     position: relative;
+
 }
 .pro-content{
     padding: 100px 0;
 }
 .details-cam{
-    background-image: url(../img/details.png);
+    background-image: url(); /*test*/
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
