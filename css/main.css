@@ -29,6 +29,19 @@
 /*  ==========================================================================
     Common Styles
     ========================================================================== */
+
+    .hr-bar {
+        color: #1998F2;
+        padding: 0;
+        border: none;
+        border-top: solid 5px;
+        text-align: center;
+        max-width: 250px;
+        margin: 50px auto 30px auto;
+    }
+    .container { 
+        margin-bottom: 20px;
+    }
 *{
 	padding: 0;
 	margin: 0;
