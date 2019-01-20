@@ -1,0 +1,130 @@
+/*
+   Olio Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .hero-section{
+        height: 650px;
+    }
+    .promo-content{ padding: 30px 10px; }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{ padding: 15px; }
+    .feature_list,
+    .about_content {
+        padding: 0;
+    } 
+    .hero_mockup{
+        background-position: 120% center;
+    }
+    ul.nav > li > a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .pro-content h2{ font-size: 28px; }
+    .hero-section{
+        height: 570px;
+    }
+  
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px!important;
+        line-height: 36px;
+    }
+    .cta-content h2,
+    .pro-content h2,
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .mock-hide,
+    p br{
+        display: none;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .navbar-brand{
+        padding: 11px 0;
+    }
+    .menu-btn,
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+    .mainmenu .default-btn {
+        margin-right: 55px;
+        margin-top: 6px;
+    }
+    .hero-section {
+        height: 570px;
+        padding-bottom: 80px;
+    }
+    .promo-section{ padding-top: 200px; }
+    .cta-content {
+        padding: 20px 0;
+    }
+    
+    
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    .subscribe-form{ width: 100%; }
+    .download-content h2{
+        font-size: 20px;
+    }
+    .download-btn a:first-child{
+        margin-bottom: 10px;
+    }
+    .social-link li{
+        margin: 0;
+    }
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
