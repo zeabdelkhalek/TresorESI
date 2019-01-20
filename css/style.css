@@ -222,14 +222,14 @@ input:-webkit-autofill:focus {
 .section-title {
     position: relative;
     z-index: 1;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .section-title h6 {
     font-weight: 300;
 }
 
-.section-title .line {
+ .line {
     width: 120px;
     height: 2px;
     background-color: #0580f9;
