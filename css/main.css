@@ -605,9 +605,10 @@ ul.nav > li > a.active{
     padding: 100px 0;
 }
 .details-cam{
-    background-image: url(); /*test*/
+    background-image: url(../img/Tresor\ Home\ Page.png); /*test*/
     background-repeat: no-repeat;
-    background-position: top right;
+    background-size: contain;
+    background-position: top right ;
     position: absolute;
     width: 100%;
     height: 100%;
