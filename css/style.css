@@ -1,67 +1,8 @@
-/* -----------------------------------------------
-[Master Stylesheet]
 
-:: Template Name : Potol - App Landing Page Template
-:: Template Author: Designing World
-:: Template Author URI: https://themeforest.net/user/designing-world/portfolio
-:: Description: Potol is an app landing pages for showcase your apps or services.
-:: Tags: Potol, App Landing
-:: Version: 1.0.0
-:: Last Update: Jan 14, 2019
-
------------------------------------------------
-[Table of Content]
-
-+ Body
-    01.0 Import CSS
-    02.0 Base CSS
-    03.0 Section Title
-    04.0 Section Sizing
-    05.0 Jarallax CSS
-    06.0 Scroll Up CSS
-    07.0 Potol Buttons
-    08.0 Overlay Effects
-    09.0 Header Area
-    10.0 welcome Area
-    11.0 Welcome Area 2
-    12.0 Welcome Area 3
-    13.0 Welcome Area 4
-    14.0 Welcome Area 5
-    15.0 Welcome Area 6
-    16.0 About US
-    17.0 Featured CSS
-    18.0 Screenshot CSS
-    19.0 Pricing Table
-    20.0 Team Member
-    21.0 Downlaod Area
-    22.0 FeedBack Area
-    23.0 Get Touch Area
-    24.0 Footer area 
-    25.0 Breadcrumb Area CSS
-    26.0 Blog CSS
-    27.0 Sidebar CSS 
-    28.0 Single Blog CSS
-    29.0 404 Area CSS
-    30.0 Coming Area CSS
-    31.0 Responsive CSS
-
-[Typography]
-
-Body [Barlow Condensed', sans-serif]
------------------------------------------------ */
 
 /* 1.0 Import CSS */
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400,500,600,700,800,900');
-/* @import url(assets/css/bootstrap.min.css);
-@import url(assets/css/animate.css);
-@import url(assets/css/animated-headline.css);
-@import url(assets/css/material-design-iconic-font.min.css);
-@import url(assets/css/font-awesome.min.css);
-@import url(assets/css/elegant-icon.css);
-@import url(assets/css/swiper.min.css);
-@import url(assets/css/classy-nav.css);
-@import url(assets/css/magnific-popup.css);
-@import url(assets/css/owl.carousel.min.css); */
+
 
 
 .get-touch-section {
