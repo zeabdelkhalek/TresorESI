@@ -2,9 +2,9 @@
 
 (function($){ "use strict";
              
-    $(window).on('load', function() {
-        $('body').addClass('loaded');
-    });
+    // $(window).on('load', function() {
+    //     $('body').addClass('loaded');
+    // });
 
              
 /*=========================================================================
@@ -69,7 +69,7 @@
 	$('#product-carousel').owlCarousel({
         loop: true,
         margin: 15,
-        autoplay: true,
+        //autoplay: true,
         smartSpeed: 500,
         items: 1,
         nav: true,

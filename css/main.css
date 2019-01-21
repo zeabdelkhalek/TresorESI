@@ -461,7 +461,7 @@ ul.nav > li > a.active{
    ========================================================================== */
 .hero-section{
     background-image: url(../img/hero-bg.png);
-    background-color: #F1F5F9 ;
+    background-color: #fff !important  ;
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
