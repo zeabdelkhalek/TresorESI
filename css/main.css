@@ -5,6 +5,15 @@
 /*  ==========================================================================
     Common Styles
     ========================================================================== */
+
+.container .section-heading a {
+    color : #333 ; 
+}
+.container .section-heading a:hover {
+    color: #1392ed;
+    opacity: 0.8;
+}
+
 .width-class { 
     max-width: 60%;
 }

@@ -69,7 +69,7 @@
 	$('#product-carousel').owlCarousel({
         loop: true,
         margin: 15,
-        //autoplay: true,
+        autoplay: false,
         smartSpeed: 500,
         items: 1,
         nav: true,
@@ -93,8 +93,8 @@
     $('#product-carouse7').owlCarousel({
         loop: true,
         margin: 5,
-        //autoplay: true,
-        smartSpeed: 500,
+        autoplay: true,
+        smartSpeed: 250,
         items: 1,
         nav: true,
         navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
@@ -117,7 +117,7 @@
     $('#product-carouse2').owlCarousel({
         loop: true,
         margin: 15,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 500,
         items: 1,
         nav: true,
@@ -141,7 +141,7 @@
     $('#product-carouse3').owlCarousel({
         loop: true,
         margin: 15,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 500,
         items: 1,
         nav: true,
@@ -163,7 +163,7 @@
 		}
     });
     $('#product-carouse4').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 15,
         autoplay: false,
         smartSpeed: 500,
@@ -187,7 +187,7 @@
 		}
     });
     $('#product-carouse5').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 15,
         autoplay: false,
         smartSpeed: 500,
@@ -211,7 +211,7 @@
 		}
     });
     $('#product-carouse6').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 15,
         autoplay: false,
         smartSpeed: 500,
