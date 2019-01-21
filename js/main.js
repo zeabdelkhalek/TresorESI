@@ -38,9 +38,37 @@
 /*=========================================================================
     Photo Gallery Carousel
 =========================================================================*/
-	$('#photo-gallery').owlCarousel({
+	// $('#photo-gallery').owlCarousel({
+    //     loop: true,
+    //     margin: 0,
+    //     autoplay: true,
+    //     smartSpeed: 500,
+    //     items: 1,
+    //     nav: true,
+    //     navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+    //     dots: true,
+    //     responsive : {
+	// 		0 : {
+	// 			items: 1,
+	// 		},
+	// 		570 : {
+	// 			items: 2,
+	// 		},
+	// 		768 : {
+	// 			items: 2
+	// 		},
+	// 		992 : {
+	// 			items: 2
+	// 		}
+	// 	}
+    // });
+
+/*=========================================================================
+    Product Carousel
+=========================================================================*/
+	$('#product-carousel').owlCarousel({
         loop: true,
-        margin: 0,
+        margin: 15,
         autoplay: true,
         smartSpeed: 500,
         items: 1,
@@ -51,25 +79,21 @@
 			0 : {
 				items: 1,
 			},
-			570 : {
+			520 : {
 				items: 2,
 			},
 			768 : {
 				items: 2
 			},
 			992 : {
-				items: 2
+				items: 4
 			}
 		}
     });
-
-/*=========================================================================
-    Product Carousel
-=========================================================================*/
-	$('#product-carousel').owlCarousel({
+    $('#product-carouse7').owlCarousel({
         loop: true,
-        margin: 15,
-        autoplay: true,
+        margin: 5,
+        //autoplay: true,
         smartSpeed: 500,
         items: 1,
         nav: true,
